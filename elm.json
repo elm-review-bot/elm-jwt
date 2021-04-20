@@ -1,23 +1,19 @@
 {
     "type": "package",
-    "name": "simonh1000/elm-jwt",
-    "summary": "Supports decoding Jwt tokens & making authenticated HTTP requests",
+    "name": "JonRowe/elm-jwt",
+    "summary": "Supports decoding Jwt tokens",
     "license": "BSD-3-Clause",
-    "version": "7.1.0",
+    "version": "1.0.0",
     "exposed-modules": [
         "Jwt",
-        "Jwt.Decoders",
-        "Jwt.Http"
+        "Jwt.Decoders"
     ],
     "elm-version": "0.19.0 <= v < 0.20.0",
     "dependencies": {
         "elm/core": "1.0.0 <= v < 2.0.0",
-        "elm/http": "2.0.0 <= v < 3.0.0",
         "elm/json": "1.0.0 <= v < 2.0.0",
         "elm/time": "1.0.0 <= v < 2.0.0",
         "truqu/elm-base64": "2.0.4 <= v < 3.0.0"
     },
-    "test-dependencies": {
-        "elm-explorations/test": "1.2.0 <= v < 2.0.0"
-    }
+    "test-dependencies": {}
 }
